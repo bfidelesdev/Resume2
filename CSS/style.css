@@ -2,9 +2,13 @@ body{
     margin: 0;
     background-color: #e7dfe7;
     font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 .resume-header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     background-color: #11AB75;
     height: 300px;
     width: 100%;
@@ -18,6 +22,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .fa{
@@ -28,10 +33,10 @@ body{
     text-decoration: none;
     margin: none;
     color: white;
-  }
+ }
 
 .title-h3{
-    text-align: center;
+    text-align: left;
     color: #11AB75;
     font-weight: 900;
 }
@@ -39,62 +44,116 @@ body{
 .title-h2{
     text-align: center;
     color: #11AB75;
-    font-weight: 700;
+    font-weight: bold;
+    padding: 40px;
 }
 
+.title-h4{
+    font-weight: bold;
+}
 
 .box5{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    background-color: white;
-    color: black;
-    width: 800px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
 }
 
 .box-photo{
-    width: 300px;
-    height: 300px;
+    width: 15.83%;
+    height: 400px;
     margin: none;
     padding: none;
     border: none;
 }
 
 .box4{
+    background-color: white;
     color: black;
-    width: 500px;
-    height: 300px;
+    width: 84.17%;
+    height: 400px;
     margin: none;
     padding: none;
     border: none;
 }
 
+.icons{
+    background-color: #11AB75;
+    padding: 18px;
+}
+
+.data1{
+    padding: 20px;
+}
+
+.data2{
+    display: flex;
+    flex-direction: row;
+}
+
+.questions{
+    font-weight: bold;
+    list-style: none;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.answers{
+    list-style: none;
+    text-align: left;
+    line-height: 1.5;
+}
+
 .box1{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     background-color: white;
     color: black;
-    width: 800px;
-    height: 150px;
-    margin: 10px;
-    padding: 25px;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
     border: none;
 }
 
 .box2{  
     color: black;
-    width: 300px;
-    height: 20px;
-    margin: 10px;
-    padding: 25px;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
     border: none;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 3;
+}
+
+.description{
+    list-style: none;
 }
 
 .box3{
+    display: flex;
+    flex-direction: column;
     color: black;
-    width: 300px;
-    height: 20px;
-    margin: 10px;
-    padding: 25px;
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
     border: none;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-weight: 20px;
 }
